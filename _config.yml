@@ -12,7 +12,7 @@ name: "Suchanya Mitprayoon"
 description: "Suchanya Mitprayoon's academic portfolio"
 
 author:
-  avatar   : "images/Suchanya.jpg"   # ต้องมีไฟล์นี้ในโฟลเดอร์ /images
+  avatar   : "images/suchanya.png"   # ต้องมีไฟล์นี้ในโฟลเดอร์ /images
   name     : "Suchanya Mitprayoon"
   pronouns : "she/her"
   bio      : "Geophysicist"
@@ -33,7 +33,7 @@ plugins:
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/suchanya.jpg"
+  avatar           : "images/suchanya.png"
   name             : "Suchanya Mitprayoon"
   pronouns         : "she/her"  
   bio              : "Geophysicist"
