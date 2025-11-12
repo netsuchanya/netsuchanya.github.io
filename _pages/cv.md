@@ -11,34 +11,34 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. Geoscience Program , Mahidol University Kanchanaburi Campus, 2022
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2026
+  *  2026 OTC Asia Energy Education University Programme
+* 2025:
+  * Internship at PTTEP
+  * President of Student Association , Mahidol University Kanchanaburi Campus Student Council
+  * Short-Term Academic Exchange Program at Peking University
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2024: 
+  * Secretary, Mahidol University Kanchanaburi Campus 
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2023
+  * Being a staff member for the PTTEP Finding Next event explorer 2023 camp in Suphanburi
+  * Become a staff for Camp 1, IPST, Earth Science and History. Mahidol University
+  * Participated in Grab Geo*Star program and OpenStreetMap mapping workshops
+  * Geological Field Excursion with Peking University
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
+* Computer
+  *  Microsoft office ZWord, Excel, PowerPoint)
+  *  Computer Language (Mathlab, Python, Pascal), Visual studio code
+* Geophysical software
+  * RES1D, IPI2win
+  *
 * Skill 3
 
 Publications
@@ -58,7 +58,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
