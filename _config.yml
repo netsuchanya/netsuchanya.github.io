@@ -18,8 +18,8 @@ description              : &description "Suchanya Mitprayoon's academic portfoli
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Suchanya.jpg"
-  name             : "Geoscience Student"
+  avatar           : "images/Suchanya.jpg"
+  name             : "Suchanya Mitprayoon"
   pronouns         : "she/her"  
   bio              : "Geophysicist"
   location         : "Bangkok"
