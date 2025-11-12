@@ -4,12 +4,6 @@ title: "About"
 permalink: /about/
 author_profile: true
 ---
-
-(เนื้อหา About Me ของเน็ต)
-
-
-(เนื้อหา About Me ของเน็ต)
-
 About Me
 ======
 I am currently an undergraduate Geoscience student at Mahidol University, Kanchanaburi Campus, Thailand.
