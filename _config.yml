@@ -4,13 +4,6 @@ baseurl: ""                                    # ว่าง สำหรับ
 repository: "netsuchanya/netsuchanya.github.io"
 # =========================================================
 
-locale: "en-US"
-site_theme: "default"
-title: "Geoscience Student"
-title_separator: "-"
-name: "Suchanya Mitprayoon"
-description: "Suchanya Mitprayoon's academic portfolio"
-
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
