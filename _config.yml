@@ -1,50 +1,27 @@
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# ===== Required for USER site (netsuchanya.github.io) =====
 url: "https://netsuchanya.github.io"
 baseurl: ""
 repository: "netsuchanya/netsuchanya.github.io"
-# Basic Site Settings
-locale: "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+
 title: "Geoscience Student"
-title_separator: "-"
 name: "Suchanya Mitprayoon"
 description: "Suchanya Mitprayoon's academic portfolio"
+locale: "en-US"
+title_separator: "-"
 
-# Author (แสดงในโปรไฟล์ด้านซ้าย)
 author:
-  avatar: "images/Suchanya.jpg"     # ให้มีไฟล์นี้จริงในโฟลเดอร์ /images
+  avatar: "images/Suchanya.jpg"
   name: "Suchanya Mitprayoon"
   pronouns: "she/her"
   bio: "Geophysicist"
   location: "Bangkok"
   employer: "Mahidol University"
-  uri: ""                            # ว่างไว้ให้ถูก syntax (เดิมเป็น comment ทำให้ YAML พัง)
   email: "suchanya.mit@gmail.com"
+  github: "netsuchanya"
 
-  # Profiles
-  github: "netsuchanya"              # แก้จาก Suchanya.mit เป็น username จริง
-  linkedin: "SUCHANYA MITPRAYOON"
-  instagram: "net_suchanya"
-  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid: ""
-
-# Navigation/Pages will be read from _data/navigation.yml
-# อ่านไฟล์ในโฟลเดอร์พิเศษ
 include:
   - _pages
-  - files
-
-# Build plugins (จำเป็นสำหรับ remote theme)
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-  - jekyll-include-cache
-  - jekyll-remote-theme
 
 # Site Settings อื่น ๆ (คงของเดิมที่ไม่ทำให้พัง)
 teaser:
