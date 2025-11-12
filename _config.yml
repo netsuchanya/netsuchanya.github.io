@@ -1,6 +1,16 @@
-nav:
-  - title: "About"
-    url: /about/
+# ----- REQUIRED for user site -----
+url: "https://netsuchanya.github.io"
+baseurl: ""      # เว้นว่างสำคัญมาก
+repository: netsuchanya/netsuchanya.github.io
+# ----------------------------------
+---
+layout: home
+author_profile: true
+title: "Suchanya Mitprayoon"
+---
+
+Welcome to my academic page.
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
