@@ -1,12 +1,14 @@
 ---
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+layout: single
+title: "About"
+permalink: /about/
 author_profile: true
-redirect_from: 
-nav:
-  - /about/
-  - /about.html
 ---
+
+(เนื้อหา About Me ของเน็ต)
+
+
+(เนื้อหา About Me ของเน็ต)
 
 About Me
 ======
