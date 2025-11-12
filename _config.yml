@@ -1,3 +1,16 @@
+# ===== Required for USER site (netsuchanya.github.io) =====
+url: "https://netsuchanya.github.io"          # ใช้ username ปัจจุบัน
+baseurl: ""                                    # ว่าง สำหรับ User Pages
+repository: "netsuchanya/netsuchanya.github.io"
+# =========================================================
+
+locale: "en-US"
+site_theme: "default"
+title: "Geoscience Student"
+title_separator: "-"
+name: "Suchanya Mitprayoon"
+description: "Suchanya Mitprayoon's academic portfolio"
+
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
@@ -5,10 +18,6 @@ title                    : "Geoscience Student"
 title_separator          : "-"
 name                     : &name "Suchanya Mitprayoon"
 description              : &description "Suchanya Mitprayoon's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      :"https://netsuchanya.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "netsuchanya/netsuchanya.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
