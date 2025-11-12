@@ -38,8 +38,7 @@ Skills
   *  Computer Language (Mathlab, Python, Pascal), Visual studio code
 * Geophysical software
   * RES1D, IPI2win
-  *
-* Skill 3
+ 
 
 Publications
 ======
