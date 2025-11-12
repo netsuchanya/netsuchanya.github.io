@@ -1,4 +1,3 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # ===== Required for USER site (netsuchanya.github.io) =====
 url: "https://netsuchanya.github.io"
@@ -6,6 +5,7 @@ baseurl: ""
 repository: "netsuchanya/netsuchanya.github.io"
 # Basic Site Settings
 locale: "en-US"
+site_theme               : "default" # Currently available options are "default", "air"
 title: "Geoscience Student"
 title_separator: "-"
 name: "Suchanya Mitprayoon"
