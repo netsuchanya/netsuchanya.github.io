@@ -1,17 +1,32 @@
 
-# ===== Required for USER site (netsuchanya.github.io) =====
-url: "https://netsuchanya.github.io"          # ใช้ username ปัจจุบัน
-baseurl: "https://github.com/netsuchanya"     # ว่าง สำหรับ User Pages
-repository: "netsuchanya.github.io"
-# =========================================================
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Geoscience Student"
-title_separator          : "-"
-name                     : &name "Suchanya Mitprayoon"
-description              : &description "Suchanya Mitprayoon's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+url: "https://netsuchanya.github.io"
+baseurl: ""
+repository: "netsuchanya/netsuchanya.github.io"
+
+locale: "en-US"
+title: "Geoscience Student"
+title_separator: "-"
+name: "Suchanya Mitprayoon"
+description: "Suchanya Mitprayoon's academic portfolio"
+
+author:
+  avatar   : "images/Suchanya.jpg"   # ต้องมีไฟล์นี้ในโฟลเดอร์ /images
+  name     : "Suchanya Mitprayoon"
+  pronouns : "she/her"
+  bio      : "Geophysicist"
+  location : "Bangkok"
+  employer : "Mahidol University"
+  email    : "suchanya.mit@gmail.com"
+  github   : "netsuchanya"           # สำคัญ! ใช้ username จริง
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
