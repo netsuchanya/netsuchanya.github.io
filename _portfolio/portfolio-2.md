@@ -1,6 +1,6 @@
 ---
 title: "President of Student Association"
-excerpt: "President of Student Association , Mahidol University Kanchanaburi Campus Student Council <br/><img src='/images/suchanya.png'>"
+excerpt: "President of Student Association , Mahidol University Kanchanaburi Campus Student Council <br/><img src='/images/SPA.png'>"
 collection: portfolio
 ---
 
