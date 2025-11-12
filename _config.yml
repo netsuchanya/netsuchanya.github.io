@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 # ===== Required for USER site (netsuchanya.github.io) =====
 url: "https://netsuchanya.github.io"          # ใช้ username ปัจจุบัน
 baseurl: "https://github.com/netsuchanya"     # ว่าง สำหรับ User Pages
