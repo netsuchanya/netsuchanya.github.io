@@ -1,5 +1,5 @@
 ---
 title: "Internship at PTTEP"
-excerpt: "Internship at PTTEP  <br/><img src='/images/SPA.png'>"
+excerpt: "Internship at PTTEP  <br/><img src='/images/intern.png'>"
 collection: portfolio
 ---
