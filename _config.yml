@@ -1,4 +1,3 @@
-
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 url: "https://netsuchanya.github.io"
@@ -12,7 +11,7 @@ name: "Suchanya Mitprayoon"
 description: "Suchanya Mitprayoon's academic portfolio"
 
 author:
-  avatar   : "images/suchanya.png"   # ต้องมีไฟล์นี้ในโฟลเดอร์ /images
+  avatar   : "images/Suchanya.png"   # ต้องมีไฟล์นี้ในโฟลเดอร์ /images
   name     : "Suchanya Mitprayoon"
   pronouns : "she/her"
   bio      : "Geophysicist"
