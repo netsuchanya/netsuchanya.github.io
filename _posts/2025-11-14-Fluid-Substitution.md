@@ -14,12 +14,12 @@ tags:
 
 ### Reference
 <figure style="text-align:center;">
-  <br/><img src='/images/crossplot1.png'> alt="Reference: Kdry/Kmin – Porosity">
+  <br/><img src='/images/crossplot1.png'> 
   <figcaption>Kdry/Kmin – Porosity (Abe et al., 2018)</figcaption>
 </figure>
 
 ### Result
 <figure style="text-align:center;">
-  <br/><img src='/images/crossplot2.png'> alt="Result from 10_subplot_03.py">
+  <br/><img src='/images/crossplot2.png'> 
   <figcaption>Applied code from <code>10_subplot_03.py</code></figcaption>
 </figure>
