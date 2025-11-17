@@ -1,0 +1,114 @@
+---
+title: "Fluid Substitution"
+permalink: /posts/fluid-substitution/
+author: "Suchanya Mitprayoon"
+excerpt: "Quick note on how fluid substitution links porosity, dry-rock stiffness, and CO₂ storage monitoring."
+date: 2025-11-14
+tags:
+  - CO2 storage
+  - rock physics
+  - Suphanburi Basin
+  - fluid substitution
+---
+
+## Fluid Substitution in Rock Physics  
+
+Fluid substitution is a rock-physics tool that answers a simple question:  
+
+> *If we change the pore fluid (for example, from brine to CO₂), how will the elastic properties of the rock change?*  
+
+In practice, this means predicting how quantities such as:
+
+- dry-rock bulk modulus \(K_{\text{dry}}\)  
+- mineral (matrix) bulk modulus \(K_{\text{min}}\)  
+- porosity \(\phi\)  
+- saturated-rock bulk modulus \(K_{\text{sat}}\)  
+- seismic velocities \(V_p\) and \(V_s\)  
+
+respond when the fluid in the pore space is replaced.
+
+This concept is essential for **CO₂ storage monitoring**, because injected CO₂ replaces formation water and slightly changes the seismic response. If we understand the rock–fluid system, we can turn small changes in amplitude or impedance into information about how much CO₂ is present and where it has moved.
+
+---
+
+## From Dry Rock to Saturated Rock  
+
+A common way to perform fluid substitution is to use **Gassmann’s equation**.  
+The idea is:
+
+1. Start from a **dry-rock frame** with known \(K_{\text{dry}}\), shear modulus \(G_{\text{dry}}\), and porosity \(\phi\).  
+2. Specify:
+   - mineral bulk modulus \(K_{\text{min}}\)  
+   - fluid bulk modulus \(K_f\) (brine, oil, CO₂, or a mixture)  
+3. Compute the **saturated bulk modulus** \(K_{\text{sat}}\) using:
+
+\[
+K_{\text{sat}} = K_{\text{dry}} +
+\frac{
+  (1 - K_{\text{dry}}/K_{\text{min}})^2
+}{
+  \frac{\phi}{K_f}
+  + \frac{1-\phi}{K_{\text{min}}}
+  - \frac{K_{\text{dry}}}{K_{\text{min}}^2}
+}
+\]
+
+4. Combine \(K_{\text{sat}}\), \(G_{\text{dry}}\), and the saturated density \(\rho_{\text{sat}}\) to obtain \(V_p\) and \(V_s\).
+
+In my project, I focus on **P-wave–only** behaviour, which is realistic when only \(V_p\) or acoustic impedance is available from logs and seismic data.
+
+---
+
+## Crossplot: Kdry/Kmin vs. Porosity  
+
+The crossplot below (after Abe et al., 2018) shows the relationship between the **normalized dry-rock stiffness** \(K_{\text{dry}} / K_{\text{min}}\) and **porosity**:
+
+![Reference crossplot: Kdry/Kmin vs. Porosity](/images/crossplot1.png)
+
+- The **x-axis** is porosity (fraction).  
+- The **y-axis** is \(K_{\text{dry}} / K_{\text{min}}\).  
+- Curves represent different rock-frame models or critical-porosity trends.  
+
+We see an **inverse trend**:  
+- As porosity increases, \(K_{\text{dry}} / K_{\text{min}}\) generally decreases.  
+- Physically, more pore space means a more compliant (less stiff) rock frame compared to the mineral matrix.
+
+This type of crossplot is useful for:
+- Checking whether the rock frame behaves reasonably for the assumed lithology.  
+- Comparing **measured** data points to **theoretical** trends from rock-physics models.  
+
+---
+
+## Result from My Python Crossplot  
+
+Using my own Python script (`10_subplot_03.py`), I generated a similar crossplot for one of my datasets (representative sandstone interval):
+
+![Python result: Kdry/Kmin vs. Porosity](/images/crossplot2.png)
+
+Key observations:
+
+- The **data points** follow a downward trend:  
+  higher porosity → lower \(K_{\text{dry}} / K_{\text{min}}\).  
+- The **colour bar** shows bulk density (RHOB); denser samples usually cluster toward lower porosity and higher stiffness.  
+- This behaviour is consistent with the reference model and gives confidence that the dry-rock estimates and input parameters are reasonable.
+
+For CO₂ storage studies in the **Suphanburi Basin**, this type of QC step is important before performing any fluid substitution scenario, because it ensures that:
+
+1. The dry-rock frame is realistic for the reservoir lithology.  
+2. The model will respond in a physically meaningful way when we substitute brine with CO₂.
+
+---
+
+## Why This Matters for CO₂ Storage  
+
+Putting it all together:
+
+- **Fluid substitution** links changes in pore fluid (e.g., brine → CO₂) to changes in \(K_{\text{sat}}\), \(V_p\), and acoustic impedance.  
+- **Crossplots** like \(K_{\text{dry}} / K_{\text{min}}\) vs. porosity help verify that our rock-physics model is consistent with real data.  
+- Once the model is trusted, we can simulate different CO₂ saturation levels and predict how detectable they are in seismic data.
+
+This provides a foundation for building **4D seismic monitoring strategies** for potential CO₂ storage sites in intermontane basins such as **Suphanburi**, even when only P-wave information is available.
+
+---
+
+*Tags: CO₂ storage, rock physics, Suphanburi Basin, fluid substitution*
