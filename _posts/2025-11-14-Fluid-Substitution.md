@@ -8,7 +8,6 @@ tags:
   - Suphanburi Basin
 ---
  
-# Crossplot
 
 **Kdry/Kmin vs. Porosity** cross plot showing an inverse relationship between porosity and the dry bulk modulus ratio, indicating decreasing rock stiffness with increasing porosity.
 
