@@ -9,7 +9,7 @@ tags:
   - python
   - Suphanburi-Basin
 ---
-*** Mini Project
+----
 # 🛢️ Mini Project: Well Log Plotting and Data Diagnostics in Suphanburi Basin
 
 This project focuses on loading and plotting well log data from the **BDN-C01** well, located in the **Suphanburi Basin** area of Thailand. The main objective is to visualize the primary petrophysical logs and perform essential data quality control (QC) against the unique data format constraints of this specific dataset.
@@ -153,4 +153,4 @@ plot_well_logs_final(las_file_path)
 
 ### 4. Result
 <img src='/images/OUTPUT.png'> 
-<figcaption>Final 5-Track Log Plot for the BDN-C01 well in the Suphanburi Basin. Note the data gap in TR21 (green curve) across the majority of the well.</figcaption> </figure>
+Final 5-Track Log Plot for the BDN-C01 well in the Suphanburi Basin. Note the data gap in TR21 (green curve) across the majority of the well.
