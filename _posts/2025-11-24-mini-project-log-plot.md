@@ -19,7 +19,10 @@ This project focuses on loading and plotting well log data from the **BDN-C01** 
 
 The well logs analyzed here originate from the **Suphanburi Basin**, a region known for its complex geological setting and presence of exploration targets. 
 
-[Image of Suphanburi Basin location map]
+## Input Data
+<img src='/images/input1.png'>
+<img src='/images/input2.png'>
+
  The primary challenge lies in the **non-standard log mnemonics** used in the file (`BDN-C01_well.las`).
 
 | Log Function | Standard Mnemonic (Code Key) | Mnemonic in `BDN-C01_well.las` | Purpose |
