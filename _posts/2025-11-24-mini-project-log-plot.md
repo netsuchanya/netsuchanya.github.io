@@ -1,5 +1,5 @@
 ---
-title: "Mini Project: Well Log Plotting and Data Diagnostics"
+title: "Mini Project: Well Log Plotting"
 date: 2025-11-24
 permalink: /posts/log-plot-bdnc01/
 tags:
@@ -9,6 +9,7 @@ tags:
   - python
   - Suphanburi-Basin
 ---
+
 ----
 # 🛢️ Mini Project: Well Log Plotting and Data Diagnostics in Suphanburi Basin
 
