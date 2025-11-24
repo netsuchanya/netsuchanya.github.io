@@ -154,4 +154,8 @@ plot_well_logs_final(las_file_path)
 
 ### 4. Result
 <img src='/images/OUTPUT.png'> 
-Final 5-Track Log Plot for the BDN-C01 well in the Suphanburi Basin. Note the data gap in TR21 (green curve) across the majority of the well.
+Final Log Plot for the BDN-C01 well in the Suphanburi Basin. Note the data gap in TR21 (green curve) across the majority of the well.
+<img src='/images/output2.png'> 
+Log Plot for the BDN-C02 well in the Suphanburi Basin.
+<img src='/images/output3.png'> 
+Log Plot for the BDN-C03 well in the Suphanburi Basin.
