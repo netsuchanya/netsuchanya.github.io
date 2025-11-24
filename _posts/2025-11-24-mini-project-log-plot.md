@@ -151,5 +151,5 @@ las_file_path = "BDN-C01_well.las"
 plot_well_logs_final(las_file_path)
 ```
 
-### 5. Result
+### 4. Result
 <img src='/images/OUTPUT.png'> <figcaption>Final 5-Track Log Plot for the BDN-C01 well in the Suphanburi Basin. Note the data gap in TR21 (green curve) across the majority of the well.</figcaption> </figure>
