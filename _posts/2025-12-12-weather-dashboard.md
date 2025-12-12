@@ -1,6 +1,6 @@
 ---
 title: "Project: Weather Data Visualization Dashboard"
-date: 2025-11-24
+date: 2025-12-12
 permalink: /posts/weather-viz-dashboard/
 tags:
   - data-visualization
